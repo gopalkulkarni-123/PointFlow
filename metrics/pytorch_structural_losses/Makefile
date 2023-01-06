@@ -6,7 +6,7 @@
 
 CXX := g++
 PYTHON := python
-NVCC := /usr/bin/nvcc
+NVCC := nvcc
 
 # PYTHON Header path
 PYTHON_HEADER_DIR := $(shell $(PYTHON) -c 'from distutils.sysconfig import get_python_inc; print(get_python_inc())')
